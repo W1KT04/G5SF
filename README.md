@@ -1,38 +1,37 @@
-# G5SF - Rockstar / GTA Network Access Manager
-**Version:** 2.5  
+# G5SF — GTA 5 SERVICE OFF
+**Version:** 2.2
 **Author:** W1KT04  
 
 ---
 
 ## Overview
-G5SF (Grand Theft Auto / Rockstar Network Access Manager) is a Python-based tool for Windows that allows you to easily control the network access of Rockstar-related executables, such as GTA5.exe, Rockstar Games Launcher, Social Club, and more.
+**G5SF** (Grand Theft Auto / Rockstar Network Access Manager) is a Windows-based utility written in Python that provides fine-grained control over network access for Rockstar-related executables, such as **GTA5.exe**, **Rockstar Games Launcher**, **Social Club**, and supporting services.
 
-It works by automatically adding or removing Windows Firewall rules for these applications, letting you block or unblock their internet access with a simple menu interface.
+By managing Windows Firewall rules automatically, G5SF enables users to block or restore network connectivity for these applications through a clean, interactive terminal interface — ideal for offline play, mod testing, or privacy control.
 
 ---
 
-## Features
-- Block internet access for GTA5, Rockstar Launcher, Social Club, etc.  
-- Unblock all previously created rules.  
-- Display existing Rockstar or GTA-related firewall rules.  
-- Built-in configuration file editor (`config.json`).  
-- Automatic detection and elevation to administrator mode.  
-- Uses Windows `netsh advfirewall` commands.  
-- Clean, colorized terminal interface.
+## Key Features
+- **Network Control:** Block or unblock GTA5, Rockstar Launcher, Social Club, and related executables.  
+- **Firewall Integration:** Uses Windows `netsh advfirewall` for rule management.  
+- **Automatic Privilege Handling:** Detects and requests administrator rights when required.  
+- **Configurable Paths:** Manage all executable locations via a `config.json` file.  
+- **Built-in Config Editor:** Add, remove, or edit paths directly from the tool.  
+- **Readable Terminal UI:** Clear color-coded interface for better visibility and feedback.  
+- **Non-destructive:** Does not modify game or system files.  
 
 ---
 
 ## Configuration
-All application paths are stored in `config.json`.  
-You can edit them manually or use the built-in editor in the program.
+All executable paths are defined in `config.json`.  
+This file is generated automatically on first launch and can be edited manually or through the integrated editor.
 
-**Default config example:**
+**Default configuration example:**
 ```json
 {
     "paths": {
         "GTA5": [
-            "C:\\SteamLibrary\\steamapps\\common\\Grand Theft Auto V\\GTA5.exe"
-            "C:\\SteamLibrary\\steamapps\\common\\Grand Theft Auto V\\GTA5.exe"
+            "D:\\SteamLibrary\\steamapps\\common\\Grand Theft Auto V\\GTA5.exe"
         ],
         "Rockstar Games Launcher": [
             "C:\\Program Files\\Rockstar Games\\Launcher\\Launcher.exe"
