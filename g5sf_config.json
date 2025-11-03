@@ -1,0 +1,19 @@
+{
+    "version": "2.2",
+    "paths": {
+        "GTA5": [
+            "D:\\SteamLibrary\\steamapps\\common\\Grand Theft Auto V Enhanced\\GTA5_Enhanced.exe",
+            "D:\\SteamLibrary\\steamapps\\common\\Grand Theft Auto V\\GTA5.exe"
+        ],
+        "Rockstar Games Launcher": [
+            "C:\\Program Files\\Rockstar Games\\Launcher\\Launcher.exe"
+        ],
+        "RockstarService": [
+            "C:\\Program Files\\Rockstar Games\\Launcher\\RockstarService.exe"
+        ],
+        "SocialClub": [
+            "C:\\Program Files\\Rockstar Games\\Social Club\\SocialClub.exe",
+            "C:\\Program Files\\Rockstar Games\\Social Club\\SocialClubHelper.exe"
+        ]
+    }
+}
