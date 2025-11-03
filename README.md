@@ -5,7 +5,7 @@
 ---
 
 ## Overview
-**G5SF** (Grand Theft Auto / Rockstar Network Access Manager) is a Windows-based utility written in Python that provides fine-grained control over network access for Rockstar-related executables, such as **GTA5.exe**, **Rockstar Games Launcher**, **Social Club**, and supporting services.
+**G5SF** (Grand Theft Auto / gta 5 service off) is a Windows-based utility written in Python that provides fine-grained control over network access for Rockstar-related executables, such as **GTA5.exe**, **Rockstar Games Launcher**, **Social Club**, and supporting services.
 
 By managing Windows Firewall rules automatically, G5SF enables users to block or restore network connectivity for these applications through a clean, interactive terminal interface — ideal for offline play, mod testing, or privacy control.
 
